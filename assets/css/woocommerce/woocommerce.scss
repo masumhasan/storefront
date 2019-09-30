@@ -302,6 +302,9 @@ ul.products,
 	margin-bottom: 0;
 	clear: both;
 	@include clearfix;
+	&::before {
+		width: 0;
+	}
 
 	li.product,
 	.wc-block-grid__product {
