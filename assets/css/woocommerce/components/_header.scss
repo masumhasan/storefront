@@ -1,0 +1,39 @@
+.page-template-template-fullwidth.woocommerce-cart {
+	.site-header {
+		padding-bottom: 0.5em;
+		padding-top: 0.5em;
+	}
+
+	.site-branding .site-title {
+		font-size: 1em;
+	}
+
+	.storefront-breadcrumb {
+		display: none;
+	}
+
+	.site-header {
+		border-bottom: 1px solid #f0f0f0;
+	}
+
+	.site-search {
+		display: none;
+	}
+}
+
+@include susy-media($desktop) {
+	.page-template-template-fullwidth.woocommerce-cart {
+		.site-header {
+			padding-bottom: 0.5em;
+			padding-top: 0.5em;
+		}
+
+		.site-branding .site-title {
+			font-size: 2em;
+		}
+
+		.storefront-breadcrumb {
+			display: block;
+		}
+	}
+}

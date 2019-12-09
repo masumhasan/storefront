@@ -1,0 +1,23 @@
+.page-template-template-fullwidth.woocommerce-cart {
+	.storefront-breadcrumb {
+		display: none;
+	}
+
+	.entry-title {
+		font-size: 2em;
+		text-align: center;
+	}
+
+	.storefront-primary-navigation {
+		display: none;
+	}
+}
+
+@include susy-media($desktop) {
+	.page-template-template-fullwidth.woocommerce-cart {
+		.entry-title {
+			font-size: 2em;
+			text-align: inherit;
+		}
+	}
+}
